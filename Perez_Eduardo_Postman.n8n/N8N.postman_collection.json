@@ -1,0 +1,161 @@
+{
+  "info": {
+    "_postman_id": "a3a6e50e-77b6-4196-9d3b-628c1692555a",
+    "name": "N8N",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49468637",
+    "_collection_link": "https://go.postman.co/collection/49468637-a3a6e50e-77b6-4196-9d3b-628c1692555a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Flujo 1 - Webhook básico",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "https://api.franciscohiguera.site/api/public/tutorials/tutorial-n8n/pages",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7"
+          },
+          {
+            "key": "Accept-Encoding",
+            "value": "gzip, deflate, br, zstd"
+          },
+          {
+            "key": "Referer",
+            "value": "https://franciscohiguera.site/"
+          },
+          {
+            "key": "Origin",
+            "value": "https://franciscohiguera.site"
+          },
+          {
+            "key": "Connection",
+            "value": "keep-alive"
+          },
+          {
+            "key": "Cookie",
+            "value": "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhMjhmZjc2My0yNDBlLTRlNzEtYjRlYS0xNGZjZmVmMjU2MGYiLCJlbWFpbCI6ImVkdWFyZG8ucGVyZXppQHV0ZS5lZHUuZWMiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc3NzM3OTA1MCwiZXhwIjoxNzc3OTgzODUwfQ.6wlbc54c4rQczAjnahND4cRt9Q9OmZ40__KOHJrEcIY"
+          },
+          {
+            "key": "Sec-Fetch-Dest",
+            "value": "empty"
+          },
+          {
+            "key": "Sec-Fetch-Mode",
+            "value": "cors"
+          },
+          {
+            "key": "Sec-Fetch-Site",
+            "value": "same-site"
+          },
+          {
+            "key": "If-None-Match",
+            "value": "W/\"592-N+kj6B59ByzzKbzAvdDceOJDNW8\""
+          },
+          {
+            "key": "TE",
+            "value": "trailers"
+          }
+        ],
+        "url": {
+          "raw": "https://api.franciscohiguera.site/api/public/tutorials/tutorial-n8n/pages",
+          "protocol": "https",
+          "host": [
+            "api",
+            "franciscohiguera",
+            "site"
+          ],
+          "path": [
+            "api",
+            "public",
+            "tutorials",
+            "tutorial-n8n",
+            "pages"
+          ]
+        },
+        "description": "Generated from cURL: curl 'https://api.franciscohiguera.site/api/public/tutorials/tutorial-n8n/pages' \\\n  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0' \\\n  -H 'Accept: application/json, text/plain, */*' \\\n  -H 'Accept-Language: es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7' \\\n  -H 'Accept-Encoding: gzip, deflate, br, zstd' \\\n  -H 'Referer: https://franciscohiguera.site/' \\\n  -H 'Origin: https://franciscohiguera.site' \\\n  -H 'Connection: keep-alive' \\\n  -H 'Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhMjhmZjc2My0yNDBlLTRlNzEtYjRlYS0xNGZjZmVmMjU2MGYiLCJlbWFpbCI6ImVkdWFyZG8ucGVyZXppQHV0ZS5lZHUuZWMiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc3NzM3OTA1MCwiZXhwIjoxNzc3OTgzODUwfQ.6wlbc54c4rQczAjnahND4cRt9Q9OmZ40__KOHJrEcIY' \\\n  -H 'Sec-Fetch-Dest: empty' \\\n  -H 'Sec-Fetch-Mode: cors' \\\n  -H 'Sec-Fetch-Site: same-site' \\\n  -H 'If-None-Match: W/\"592-N+kj6B59ByzzKbzAvdDceOJDNW8\"' \\\n  -H 'TE: trailers'"
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 2 Webhook basico - Post",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 3 Webhook basico - PUT",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 4 Webhook basico - Delete",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 5 - Webhook con Postgresql - Get",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 6 - Webhook con Postgresql - Post",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 7 - Webhook con Postgresql - PUT",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 8 - Webhook con Postgresql - Get id",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Flujo 9 - Webhook con Postgresql - Delete id",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
