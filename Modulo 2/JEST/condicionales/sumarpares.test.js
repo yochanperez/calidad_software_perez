@@ -1,4 +1,4 @@
-const { sumarPares } = require('./sumarPares');
+const { sumarPares } = require('./sumarpares');
 
 describe('Suma de números pares', () => {
     test('Happy path: suma solo los elementos pares', () => {
