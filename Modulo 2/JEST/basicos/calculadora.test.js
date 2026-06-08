@@ -2,7 +2,6 @@ const { sumar, restar, multiplicar, dividir } = require('./calculadora');
 
 describe('Pruebas unitarias para operaciones matemáticas', () => {
     
-    // Grupo de pruebas para la suma
     describe('Función sumar', () => {
         test('Debería sumar dos números positivos correctamente', () => {
             expect(sumar(2, 3)).toBe(5);
@@ -13,7 +12,6 @@ describe('Pruebas unitarias para operaciones matemáticas', () => {
         });
     });
 
-    // Grupo de pruebas para la resta
     describe('Función restar', () => {
         test('Debería restar dos números correctamente', () => {
             expect(restar(10, 4)).toBe(6);
@@ -24,7 +22,6 @@ describe('Pruebas unitarias para operaciones matemáticas', () => {
         });
     });
 
-    // Grupo de pruebas para la multiplicación
     describe('Función multiplicar', () => {
         test('Debería multiplicar dos números correctamente', () => {
             expect(multiplicar(4, 5)).toBe(20);
@@ -46,7 +43,6 @@ describe('Pruebas unitarias para operaciones matemáticas', () => {
         });
 
         test('Debería lanzar un error al intentar dividir por cero', () => {
-            // Nota: Para evaluar errores en Jest, envolvemos la ejecución en una función anónima
             expect(() => dividir(10, 0)).toThrow("No se puede dividir por cero");
         });
     });
